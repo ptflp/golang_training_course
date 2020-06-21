@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+func printInt(i int) {
+	fmt.Println(i)
+}
+
 func main() {
-	fmt.Println(42)
+	printInt(42)
 }
