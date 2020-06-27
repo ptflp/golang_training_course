@@ -4,9 +4,9 @@ import "fmt"
 
 const (
 	a = iota
-	b = iota
-	c = iota
-	d = iota
+	b
+	c
+	d
 )
 
 func main() {
